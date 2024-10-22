@@ -1,0 +1,352 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: EBGaramond;
+    src:url(fonts/EBGaramond.ttf) format("truetype");;
+}
+
+body {
+    font-family: Inter;
+}
+
+.logo:hover {
+    background-color: #F6F6F6;
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+    background-color: #F6F6F6;
+    font-size: 1em;
+}
+
+.nav-item {
+    color: black;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.custom-und:hover {
+    text-decoration: underline;
+}
+
+.nav-item:hover{
+    background-color: #F6F6F6;
+}
+
+.dropdown-menu li:hover {
+    text-decoration: underline;
+}
+
+.flip-h {
+    transform: scaleX(90deg);
+}
+
+.custom-font {
+    font-size: 0.9em;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler.custom-border {
+    border: none;
+}
+
+.close {
+    display: none;
+}
+  
+.navbar-toggler:not(.collapsed)>.toggler-icon {
+    display: none;
+}
+  
+  .navbar-toggler:not(.collapsed)>.close {
+    display: inline-block;
+  }
+
+  /* main area */
+
+.custom {
+    font-family: EBGaramond;
+    font-size: 4.5rem;
+}
+
+.lang {
+    background-color: #EBEBEB;
+    height: 2em;
+}
+.text {
+    font-size: 12px;
+}
+
+.custom-back {
+    background-color: #F6F6F6;
+}
+
+.custom-img {
+    border: 0.1em solid #d8d7d7;
+    border-radius: 0.2em;
+}
+
+.card-body {
+    color: #616060;
+}
+
+.custom-link:hover {
+    text-decoration: none;
+}
+
+.row {
+    padding: 5em;
+}
+
+@media (max-width: 991.98px) {
+    .row {
+      padding: 5em 1em;
+    }
+}
+
+.custom-pad {
+    padding-left: 5em;
+}
+
+.custom-tex {
+    font-family: EBGaramond;
+    font-size: 2.5em;
+}
+
+.custom-p {
+    color: #616060;
+}
+
+.new {
+    width: 100em;
+    border: 0.1em solid #d8d7d7;
+    border-radius: 0.2em;
+}
+
+@media (max-width: 991.98px) { 
+    .custom-pad {
+        padding-left: 0; 
+    }
+}
+
+.bg {
+    background-color: #1E1E1E;
+    color: white;
+    padding: 5em;
+}
+
+.head {
+    font-size: 3em;
+    font-family: EBGaramond;
+}
+
+.img-row {
+    display: flex;
+    align-items: center;
+}
+
+.image-row img:last-child {
+    margin-right: 0;
+  }
+
+@media (max-width: 720px) { 
+    .head {
+        font-size: 2em; 
+    }
+
+    .bg {
+        padding-left: 1em;
+        padding-right: 2em;
+    }
+}
+
+.showcase {
+    background-color: #1E1E1E;
+}
+
+.com {
+    font-family: EBGaramond;
+    font-size: 2.5em;
+}
+
+.backk {
+    background-color: #F6F6F6;
+}
+
+.cus-a {
+    color: black;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.cus-a:hover {
+    text-decoration: underline;
+}
+
+.com-l {
+    font-family: EBGaramond;
+    font-size: 2.2em;
+}
+
+@media (max-width: 720px) {
+    .com-l {
+        font-size: 1.6em;
+    }
+
+}
+
+.pre-foot {
+    background-color: #23282D;
+    color: white;
+    padding: 3em 5em 0;
+} 
+
+.start {
+    text-decoration: none;
+    color: white;
+    font-size: 6em;
+    font-weight: 100;
+}
+
+.start:hover {
+    border-bottom: 1px solid white;
+}
+
+.hover-image {
+    transition: transform 0.3s ease;
+}
+
+.start:hover + .hover-image {
+    transform: translateX(10px); /* Move image slightly to the right */
+}
+
+@media (max-width: 992px) {
+    .d-flex {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center; /* Center align the content */
+    }
+
+    .hover-image {
+        margin-top: 0em; /* Add some space between text and image */
+        transform: none; /* Reset transform effect for smaller screens */
+    }
+
+    .start {
+        font-size: 4em; /* Adjust font size for smaller screens */
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center; /* Center align the content */
+    }
+
+    .hover-image {
+        margin-top: 0em; /* Add some space between text and image */
+        transform: none; /* Reset transform effect for smaller screens */
+    }
+
+    .start {
+        font-size: 4em; /* Adjust font size for smaller screens */
+    }
+}
+
+.custom-mar {
+    margin-left: -5em;
+    margin-top: -3em;
+}
+
+.lst:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #23282D;
+    padding-left: 5em;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+footer ul {
+    padding-top: 2em;
+}
+
+footer li {
+    padding-bottom: 0.5em;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 992px) {
+    .footer-grid {
+        grid-template-columns: repeat(4, 1fr); /* Stack 3 columns */
+    }
+    footer {
+        padding-left: 0;
+    }
+}
+
+/* Small screens (up to 768px) */
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: repeat(3, 1fr); /* Stack 2 columns */
+    }
+}
+
+/* Extra small screens (up to 576px) */
+@media (max-width: 576px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr); /* Stack everything into one column */
+    }
+}
+
+.social-icons {
+    display: inline-block; /* Use inline-block to manage spacing */
+    white-space: nowrap; /* Prevent wrapping */
+    justify-content: space-between;
+    padding-right: 0;
+}
+
+.social-icon {
+    margin-left: 10px; /* Space between icons */
+    display: inline-flex; /* Use inline-flex for alignment */
+    align-items: center; /* Center align icons vertically */
+}
+
+.social-icon img {
+    width: 2em; /* Ensure consistent icon size */
+    height: 1.5em; /* Maintain the height */
+}
+
+.text-end {
+    display: flex; /* Use flexbox for the text-end */
+    justify-content: flex-end; /* Align items to the end */
+    align-items: center; /* Center items vertically */
+}
+
